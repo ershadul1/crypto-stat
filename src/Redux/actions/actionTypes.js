@@ -1,0 +1,4 @@
+export const FETCH_LIST = 'FETCH_LIST';
+export const FETCH_LIST_ERROR = 'FETCH_LIST_ERROR';
+export const FETCH_DETAILS = 'FETCH_DETAILS';
+export const FETCH_DETAILS_ERROR = 'FETCH_DETAILS_ERROR';
