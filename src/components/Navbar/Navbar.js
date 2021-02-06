@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
+import styles from './Navbar.module.css';
 
 const Navbar = () => (
-  <nav>
-    <Link to="/"><h1>Crypto Stat</h1></Link>
+  <nav className={styles.navbar}>
+    <div className={styles.container}>
+      <Link className={styles.navlink} to="/">Crypto Stat</Link>
+    </div>
   </nav>
 );
 
