@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-// import { Link } from 'react-router-dom';
 import { fetchList, changeFilter } from '../../Redux/actions/index';
-// import styles from './Home.module.css';
+import styles from './Home.module.css';
 import Coin from '../../components/Coin/Coin';
 import Filter from '../../components/Filter/Filter';
 import sortData from '../../helpers/sortData';
@@ -46,9 +45,16 @@ const Home = state => {
   const data = sortData(state.list.data, state.filter.sortBy, state.filter.order);
   return (
     <>
-      <button type="button" onClick={() => fetchCoinList(state.filter)}>FETCH_LIST</button>
-      <Filter filter={changeFilter} />
-      {data.map(item => <Coin key={item.id} data={item} currency={state.filter.currency} />)}
+      <div className={styles.container}>
+        <Filter filter={changeFilter} />
+        {data.map(item => (
+          <Coin
+            key={item.id}
+            data={item}
+            currency={state.filter.currency}
+          />
+        ))}
+      </div>
     </>
   );
 };
