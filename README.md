@@ -14,6 +14,7 @@ Catalogue of Statistics. A single page application that shows cryptocurrency sta
 - Javascript
 - Create React App
 - CoinGecko API
+- Chartjs
 
 ## Live Demo
 
