@@ -6,7 +6,7 @@ const detailsReducer = (state = { loading: true, error: false }, action) => {
       return { ...action.payload, loading: false, error: false };
     }
     case FETCH_DETAILS_ERROR: {
-      return { loading: false, error: false, errorDetails: action.payload };
+      return { loading: false, error: true, errorDetails: action.payload };
     }
     default:
       return state;
