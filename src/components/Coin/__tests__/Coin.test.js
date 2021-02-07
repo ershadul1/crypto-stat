@@ -14,12 +14,12 @@ it('Coin snapshot test', () => {
     price_change_percentage_24h: 5,
     price_change_percentage_7d_in_currency: 10,
   };
-  const currency = 'usd'
+  const currency = 'usd';
   const tree = renderer
     .create(
       <BrowserRouter>
         <Coin data={data} currency={currency} />
-      </BrowserRouter>
+      </BrowserRouter>,
 
     )
     .toJSON();

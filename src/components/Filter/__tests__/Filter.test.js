@@ -5,7 +5,7 @@ import Filter from '../Filter';
 it('Filter snapshot test', () => {
   const tree = renderer
     .create(
-      <Filter filter={Function} />
+      <Filter filter={Function} />,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();

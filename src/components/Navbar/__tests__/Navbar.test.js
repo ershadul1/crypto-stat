@@ -6,9 +6,9 @@ import Navbar from '../Navbar';
 it('Navbar snapshot test', () => {
   const tree = renderer
     .create(
-    <BrowserRouter>
-      <Navbar />
-    </BrowserRouter>
+      <BrowserRouter>
+        <Navbar />
+      </BrowserRouter>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
