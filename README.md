@@ -1,9 +1,10 @@
 # Crypto Stat
 Catalogue of Statistics. A single page application that shows cryptocurrency stats. It's built using React-Redux and powered by CoinGecko API.
 
-## Screenshot 
+## Screenshots
 
-![]()
+![](src/assets/screenshots/home.png)
+![](src/assets/screenshots/details.png)
 
 ## Built With
 
