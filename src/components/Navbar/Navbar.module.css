@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+
+.navbar {
+  background-color: rgb(28, 63, 130);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+.navlink {
+  margin: auto;
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: 'Lemonada', cursive;
+  text-decoration: none;
+  font-size: 30px;
+}

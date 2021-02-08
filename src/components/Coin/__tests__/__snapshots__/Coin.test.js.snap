@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Coin snapshot test 1`] = `
+<div>
+  <a
+    className="container"
+    href="/details/bitcoin"
+    onClick={[Function]}
+  >
+    <div
+      className="cell"
+    >
+      <img
+        alt="Bitcoin-logo"
+        className="logo"
+        src="https://example.com/image.jpg"
+      />
+      <p>
+        Bitcoin
+      </p>
+    </div>
+    <div>
+      USD 20
+    </div>
+    <div>
+      USD 500
+    </div>
+    <div>
+      USD 100
+    </div>
+    <div
+      id="green"
+    >
+      5
+      %
+    </div>
+    <div
+      id="green"
+    >
+      10
+      %
+    </div>
+  </a>
+</div>
+`;

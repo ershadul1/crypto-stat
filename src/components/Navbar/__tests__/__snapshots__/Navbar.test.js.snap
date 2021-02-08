@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar snapshot test 1`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="container"
+  >
+    <a
+      className="navlink"
+      href="/"
+      onClick={[Function]}
+    >
+      Crypto Stat
+    </a>
+  </div>
+</nav>
+`;
