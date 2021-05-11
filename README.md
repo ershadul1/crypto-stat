@@ -1,5 +1,6 @@
 # Crypto Stat
-Catalogue of Statistics. A single page application that shows cryptocurrency stats. It's built using React-Redux and powered by CoinGecko API.
+
+A single page application that shows cryptocurrency stats. Users can sort the list according to price, market cap, price changes, name, etc. It's built using React-Redux and powered by CoinGecko API.
 
 ## Screenshots
 
